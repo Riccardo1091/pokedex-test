@@ -4,7 +4,7 @@ import { PkThumbnail } from './PkThumbnail'
 
 export function App() {
   const [allPokemons, setAllPokemons] = useState<any>([])
-  const [loadMore, setLoadMore] = useState<string>('https://pokeapi.co/api/v2/pokemon?limit=20/')
+  const [loadMore, setLoadMore] = useState<string>('https://pokeapi.co/api/v2/pokemon?limit=100/')
   const [search, setSearch] = useState<string>('')
   const [types, setTypes] = useState<any>([])
   const [filteredType, setFilteredType] = useState<string>('')
